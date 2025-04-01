@@ -1,0 +1,32 @@
+.header {
+  background-color: rgb(12, 8, 66);
+}
+
+.header a {
+  color: white;
+  text-decoration: none; /*밑줄제거*/
+}
+
+section {
+  padding: 20px 0; /*내부요소 위아래 20px, 좌우0*/
+  margin: 0; /*바깥요소 간격조정*/
+}
+
+.banner-area {
+  background-color: rgb(24, 49, 49);
+}
+
+.about-area {
+  background-color: antiquewhite;
+}
+
+.portfolio-area {
+  background-color: pink;
+}
+
+.contact-area {
+  background-color: beige;
+}
+.footer {
+  background-color: black;
+}
