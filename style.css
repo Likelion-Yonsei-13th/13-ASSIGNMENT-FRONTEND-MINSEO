@@ -22,10 +22,6 @@ nav li {
   font-size: 20px;
 }
 
-.header h2 {
-  font-size: 30px;
-}
-
 .header a {
   color: white;
   text-decoration: none; /*밑줄제거*/
