@@ -1,13 +1,19 @@
 .header {
-  background-color: rgb(12, 8, 66);
+  background-color: rgb(7, 6, 13);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
 }
 
+body {
+  font-family: "Kirang Haerang", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+
 nav {
-  display: flex; /*가로정렬*/
+  display: flex; /*가로정렬* 여기서 따로 felx-direction 지정 안해줘도 자동으로 가로정렬됨*/
   gap: 20px;
 }
 
@@ -32,6 +38,27 @@ section {
 
 .banner-area {
   background-color: rgb(24, 49, 49);
+  background-image: url("images/banner2.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-area h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 200px 0 20px 0;
+}
+
+.banner-area h3 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 100;
 }
 
 .about-area {
