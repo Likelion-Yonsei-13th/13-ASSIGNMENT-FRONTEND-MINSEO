@@ -1,15 +1,15 @@
-.header {
-  background-color: rgb(7, 6, 13);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-}
-
 body {
   font-family: "Kirang Haerang", system-ui;
   font-weight: 100;
   font-style: normal;
+}
+
+.header {
+  background-color: rgb(2, 1, 22);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 nav {
@@ -19,16 +19,16 @@ nav {
 
 nav li {
   list-style: none; /*리스트 앞 점 제거*/
+  font-size: 20px;
+}
+
+.header h2 {
+  font-size: 30px;
 }
 
 .header a {
   color: white;
   text-decoration: none; /*밑줄제거*/
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
 }
 
 section {
@@ -37,7 +37,6 @@ section {
 }
 
 .banner-area {
-  background-color: rgb(24, 49, 49);
   background-image: url("images/banner2.jpeg");
   background-size: cover;
   background-position: center;
@@ -62,7 +61,32 @@ section {
 }
 
 .about-area {
-  background-color: antiquewhite;
+  background-image: url("images/about.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-area li {
+  list-style: none;
+}
+
+.about-area h3 {
+  font-size: 40px;
+}
+
+.about-area p {
+  font-size: 15px;
+}
+.about-left img {
+  width: 200px; /* 가로 크기 */
+  height: 200px; /* 세로 크기 */
+  border-radius: 40px;
 }
 
 .portfolio-area {
