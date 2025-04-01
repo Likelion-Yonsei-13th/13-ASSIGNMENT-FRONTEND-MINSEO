@@ -93,7 +93,53 @@ section {
   background-image: url("images/portfolio.jpeg");
   background-size: cover;
   background-position: center;
-  height: 1100px;
+  height: 1200px;
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.portfolio-area li {
+  list-style: none;
+  margin: 30px 0; /* 간격 조정 */
+}
+
+.portfolio-content li h4 {
+  color: pink;
+  font-size: 25px;
+}
+
+.portfolio-content li img {
+  display: block;
+  margin-bottom: 10px; /* 이미지와 h4 사이 간격 */
+}
+
+.portfolio-content h4 {
+  margin-bottom: 10px; /* h4와 p 사이 여백 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; /*리스트 간격 조정*/
+}
+
+.portfolio-title {
+  font-size: 40px;
+}
+
+.portfolio-content img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.contact-area {
+  background-image: url("images/contact.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
   color: rgb(255, 255, 255);
   flex-direction: column;
   justify-content: center;
@@ -101,34 +147,29 @@ section {
   text-align: center;
 }
 
-.portfolio-area li {
-  list-style: none;
-}
-
-.portfolio-title {
+.contact-title {
   font-size: 40px;
 }
-.portfolio-first img {
-  width: 300px; /* 가로 크기 */
-  height: 200px; /* 세로 크기 */
-  border-radius: 20px;
+
+.contact-list {
+  list-style: none; /* 리스트 앞 점 제거 */
+  padding: 0;
 }
 
-.portfolio-second img {
-  width: 300px; /* 가로 크기 */
-  height: 200px; /* 세로 크기 */
-  border-radius: 20px;
+.contact-list li {
+  margin: 40px 0; /* 간격 조정 */
+  font-size: 18px;
+}
+.contact-list i {
+  color: #d7eaff; /* 아이콘 색상 */
+  font-size: 24px; /* 아이콘 크기 */
 }
 
-.portfolio-third img {
-  width: 300px; /* 가로 크기 */
-  height: 200px; /* 세로 크기 */
-  border-radius: 20px;
-}
-
-.contact-area {
-  background-color: beige;
-}
 .footer {
-  background-color: black;
+  background-color: rgb(2, 1, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
 }
