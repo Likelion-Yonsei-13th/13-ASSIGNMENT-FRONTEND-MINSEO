@@ -90,7 +90,40 @@ section {
 }
 
 .portfolio-area {
-  background-color: pink;
+  background-image: url("images/portfolio.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 1100px;
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.portfolio-area li {
+  list-style: none;
+}
+
+.portfolio-title {
+  font-size: 40px;
+}
+.portfolio-first img {
+  width: 300px; /* 가로 크기 */
+  height: 200px; /* 세로 크기 */
+  border-radius: 20px;
+}
+
+.portfolio-second img {
+  width: 300px; /* 가로 크기 */
+  height: 200px; /* 세로 크기 */
+  border-radius: 20px;
+}
+
+.portfolio-third img {
+  width: 300px; /* 가로 크기 */
+  height: 200px; /* 세로 크기 */
+  border-radius: 20px;
 }
 
 .contact-area {
