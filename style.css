@@ -98,6 +98,11 @@ section {
   width: 200px; /* 가로 크기 */
   height: 200px; /* 세로 크기 */
   border-radius: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-left img:hover {
+  transform: rotate(10deg);
 }
 
 .portfolio-area {
@@ -141,10 +146,15 @@ section {
   font-size: 40px;
 }
 
+.portfolio-content img:hover {
+  filter: brightness(50%);
+}
+
 .portfolio-content img {
   width: 300px;
   height: 200px;
   border-radius: 20px;
+  transition: filter 0.1s ease-in-out;
 }
 
 .contact-area {
