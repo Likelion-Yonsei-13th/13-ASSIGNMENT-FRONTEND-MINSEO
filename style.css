@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Kirang Haerang", system-ui;
   font-weight: 100;
@@ -9,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 5px 15px;
 }
 
 nav {
@@ -28,8 +34,7 @@ nav li {
 }
 
 section {
-  padding: 20px 0; /*내부요소 위아래 20px, 좌우0*/
-  margin: 0; /*바깥요소 간격조정*/
+  padding: 10px 0; /*내부요소 위아래 20px, 좌우0*/
 }
 
 .banner-area {
@@ -47,7 +52,8 @@ section {
 .banner-area h1 {
   font-size: 48px;
   font-weight: bold;
-  margin: 200px 0 20px 0;
+  margin: 100px 0 20px 0;
+  margin-top: 180px;
 }
 
 .banner-area h3 {
@@ -60,7 +66,7 @@ section {
   background-image: url("images/about.jpeg");
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 450px;
   color: white;
   flex-direction: column;
   justify-content: center;
@@ -74,6 +80,15 @@ section {
 
 .about-area h3 {
   font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .about-area p {
@@ -89,7 +104,7 @@ section {
   background-image: url("images/portfolio.jpeg");
   background-size: cover;
   background-position: center;
-  height: 1200px;
+  height: 1000px;
   color: rgb(255, 255, 255);
   flex-direction: column;
   justify-content: center;
@@ -118,10 +133,11 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px; /*리스트 간격 조정*/
+  gap: 15px; /*리스트 간격 조정*/
 }
 
 .portfolio-title {
+  margin-top: 20px;
   font-size: 40px;
 }
 
@@ -135,7 +151,7 @@ section {
   background-image: url("images/contact.jpeg");
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 450px;
   color: rgb(255, 255, 255);
   flex-direction: column;
   justify-content: center;
@@ -145,6 +161,7 @@ section {
 
 .contact-title {
   font-size: 40px;
+  margin-top: 20px;
 }
 
 .contact-list {
@@ -166,6 +183,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 20px;
+  padding: 5px 15px;
   color: white;
+  height: 100px;
 }
